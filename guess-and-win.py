@@ -38,16 +38,16 @@ while not game_running:
         if game_level == "easy":
             count = 10
 
-            sn = rm.randint(1, 5)
-            ln = rm.randint(6, 10)
+            sn = rm.randint(1, 10)
+            ln = rm.randint(11, 15)
             guess = rm.randint(sn, ln)
             print(f"*Range={sn}-{ln}\nOk!! Let's do this! Try a number!!..\n")
             break
         elif game_level == "hard":
             count = 10
 
-            sn = rm.randint(10, 20)
-            ln = rm.randint(30, 40)
+            sn = rm.randint(20, 25)
+            ln = rm.randint(36, 35)
             guess = rm.randint(sn, ln)
             print(f"*Range = {sn}-{ln}\nGood luck! This will be harder than you think! Try a number!!..\n")
           
