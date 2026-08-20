@@ -16,7 +16,6 @@ A simple Python number guessing game with 3 difficulty levels.
 ## How to Run
 ```bash
 python guess-and-win.py
-
 ## 📸 Gameplay Screenshots
 
 ### Easy Level - Range 1-10
