@@ -16,15 +16,18 @@ A simple Python number guessing game with 3 difficulty levels.
 ## How to Run
 ```bash
 python guess-and-win.py
-## 📸 Gameplay Screenshots
+```
+
+## levels
+
 
 ### Easy Level - Range 1-10
-![Easy](Screenshot- Easy_level.jpg)
+![Easy](Screenshot- Easy level.jpg)
 
 ### Hard Level - Range 10-40
-![Hard](Screenshot-Hard_level.jpg)
+![Hard](Screenshot-Hard level.jpg)
 
 ### Insane Level - Range 50-100
-![Insane](Screenshot-insane_level.jpg)
+![Insane](Screenshot-insane level.jpg)
 
 
