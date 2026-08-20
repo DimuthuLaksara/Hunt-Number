@@ -22,12 +22,12 @@ python guess-and-win.py
 
 
 ### Easy Level - Range 1-10
-![Easy](Screenshot- Easy level.jpg)
+![Easy](Screenshot_Easy_level.jpg)
 
 ### Hard Level - Range 10-40
-![Hard](Screenshot-Hard level.jpg)
+![Hard](Screenshot_Hard_level.jpg)
 
 ### Insane Level - Range 50-100
-![Insane](Screenshot-insane level.jpg)
+![Insane](Screenshot_insane_level.jpg)
 
 
