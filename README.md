@@ -19,13 +19,13 @@ python guess-and-win.py
 
 ## 📸 Gameplay Screenshots
 
-### Easy Level - Range 1-14
+### Easy Level - Range 1-10
 ![Easy](Screenshot- Easy_level.jpg)
 
-### Hard Level - Range 1-100
+### Hard Level - Range 10-40
 ![Hard](Screenshot-Hard_level.jpg)
 
-### Insane Level - Range 1-1000
+### Insane Level - Range 50-100
 ![Insane](Screenshot-insane_level.jpg)
 
 
