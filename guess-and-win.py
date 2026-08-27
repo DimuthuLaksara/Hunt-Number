@@ -47,7 +47,7 @@ while not game_running:
             count = 10
 
             sn = rm.randint(20, 25)
-            ln = rm.randint(36, 35)
+            ln = rm.randint(36, 55)
             guess = rm.randint(sn, ln)
             print(f"*Range = {sn}-{ln}\nGood luck! This will be harder than you think! Try a number!!..\n")
           
