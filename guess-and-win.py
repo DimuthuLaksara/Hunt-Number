@@ -50,8 +50,8 @@ while not game_running:
             ln = rm.randint(36, 55)
             guess = rm.randint(sn, ln)
             print(f"*Range = {sn}-{ln}\nGood luck! This will be harder than you think! Try a number!!..\n")
-          
-            
+
+
             break
         elif game_level == "insane":
             count = 6
@@ -60,8 +60,8 @@ while not game_running:
             ln = rm.randint(75, 100)
             guess = rm.randint(sn, ln)
             print(f"*Range = {sn}-{ln}\nYou must be an expert!!.. Then wish me luck! Try a number!!..\n")
-                
-            
+
+
             break
         else:
             print(" Please select your level to continue..")
@@ -73,19 +73,21 @@ while not game_running:
             num = int(num)
             count, game_over = game(num, guess, count)
             if num == guess:
-                
+
                 while True:
                     ask1 = input("Want to check your score?\n    •Yes    •No  ")
+                    
+                    if game_level == "easy":
+                        stars_earned = 1
+
+                    elif game_level == "hard":
+                        stars_earned = 2
+
+                    else:
+                        stars_earned = 4
+                    total_stars = total_stars + stars_earned
                     if ask1.upper() == "YES":
-                        if game_level == "easy":
-                            stars_earned = 1
-
-                        elif game_level == "hard":
-                            stars_earned = 2
-
-                        else:
-                            stars_earned = 4
-                        total_stars = total_stars + stars_earned
+                        
                         print(
                             "\n>>>",
                             rm.choice(won_msgs),
@@ -94,11 +96,12 @@ while not game_running:
 
                     elif ask1.upper()=="NO":
                         print("\nOk then……")
+                        
                         break
                     else:
                         print("\n Say yes or No!…")
-                        
-                    
+
+
         else:
             print(" Please enter a valid number……")
 
@@ -106,8 +109,8 @@ while not game_running:
         ask2 = input("Do you wish to play again?\n    •Yes    •No  ")
         if ask2.upper() == "NO":
             print(f"\nThank you for playing! You have earned ⭐{total_stars} in the end!")
-           
-            
+
+
             game_running = True
             break
         elif ask2.upper() == "YES":
