@@ -5,7 +5,7 @@ print("_______________HUNT NUMBER________________\n\n")
 print("Welcome to the game!")
 
 won_msgs = ["Congrats!", "Wow!", "Unbelievable!", "Amazing!", "Super!"]
-dismiss_msgs = ["Aww!", "Oops!", "Come on!", "Watch it!"]
+dismiss_msgs = ["Aww!", "Opps!", "Come on!", "Watch it!"]
 
 
 def game(user_guess, target_num, count):
@@ -72,7 +72,7 @@ while game_running:
             count, game_over = game(user_guess, target_num, count)
 
             if user_guess == target_num:
-                total_stars += stars_earned  # ජයග්‍රහණය කළ විට පමණක් එක වරක් එකතු වේ
+                total_stars += stars_earned   
 
                 while True:
                     ask1 = (
